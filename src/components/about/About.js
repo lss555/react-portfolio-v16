@@ -7,7 +7,7 @@ import { FirstName, LastName } from "../../utils/getName";
 
 import './About.css';
 
-import profile from '../../assets/profile.png';
+import profile from '../../assets/profile.jpg';
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -20,17 +20,14 @@ const useStyles = makeStyles((theme) => ({
 export const About = () => {
   const classes = useStyles();
   const greetings = "Hello there!";
-  const aboutme = `I'm ${FirstName} ${LastName}, a multidisciplinary 
-                  designer & developer. I'm always down for something new and challenging!
-                  I'm here to help you create beautifully formatted websites. 
-                  My projects mostly includes web development.`;
+  const aboutme = `I'm ${FirstName} ${LastName}, a software Developer based out of Denver, CO specializing in building and designing effective, high-quality websites and applications.`;
 
   return (
     <section id="about">
       <Container component="main" className={classes.main} maxWidth="md">
         <div className="about">
           <div className="_img"
-            style={{ 
+            style={{
               background: "url(" + profile + ")",
               backgroundSize: 'contain',
               backgroundPosition: 'center',
