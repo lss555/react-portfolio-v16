@@ -1,24 +1,24 @@
 {
     "basics": {
-        "name": "Mark Tan",
-        "label": "Web Developer",
-        "email": "markcmtan@gmail.com",
-        "phone": "(XXX) XXX-XXXX",
+        "name": "Chris Heibel",
+        "label": "Software Developer",
+        "email": "ChrisHeibeldev@gmail.com",
+        "phone": "(720) 813-3248",
         "picture": "mt.png",
         "x_title": "Hello, I'm",
-        "job1": "Designer",
+        "job1": "Engineer",
         "job2": "Developer",
-        "description": "Hello! I'm Mark! Your web development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
-        "summary": "based in Angeles, Philippines.",
+        "description": "Hello! I'm a software Engineer based out of Denver, CO specializing in building a designing effective, high-quality websites and applications.",
+        "summary": "based in Denver, Colorado.",
         "keywords": "personal,website,portfolio,template,kit,mark,tan,taniyow,webdev,web,developer,angeles,philippines,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
         "url": "https://taniyow.vercel.app/",
         "location": {
             "address": "XX XXXXXstreet",
             "postalCode": "XXXXX",
-            "city": "Angeles",
-            "country": "Philippines",
+            "city": "Denver",
+            "country": "USA",
             "countryCode": "PH",
-            "region": "Pampanga"
+            "region": "Colorado"
         },
         "profiles": [
             {
