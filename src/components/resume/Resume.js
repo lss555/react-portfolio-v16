@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography, Link } from '@material-ui/core';
 import { TextDecrypt } from '../content/TextDecrypt';
-import ResumePDF from './../../assets/Tan_Mark_Resume.pdf';
+import ResumePDF from './../../assets/Resume.pdf';
 import {
   ResumeIcon
 } from '../content/ResumeButton';
@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
     alignItems: 'center',
     flexWrap: 'wrap',
   },
-  
+
 }));
 
 export const Resume = () => {

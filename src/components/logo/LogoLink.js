@@ -28,7 +28,7 @@ export const LogoLink = () => {
     >
       <Link
           variant="h6"
-          href={Resume.basics.url}
+          href='/'
           underline="none"
           color="inherit"
           noWrap

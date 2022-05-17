@@ -1,14 +1,14 @@
 {
-    "name": "Mark Tan | Angeles, Philippines",
+    "name": "Chris Heibel | Denver, Colorado",
     "short_name": "taniyow.vercel.app",
     "icons": [
         {
-            "src": "/android-chrome-192x192.png",
+            "src": "/CHLogo2.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-512x512.png",
+            "src": "/CHLogo2.png",
             "sizes": "512x512",
             "type": "image/png"
         }
