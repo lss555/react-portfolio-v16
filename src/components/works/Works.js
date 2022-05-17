@@ -9,10 +9,10 @@ import './Works.css';
 
 // Import ../../assets/recentprojects/
 import Soar from '../../assets/recentprojects/soar.png';
-import Veritru from '../../assets/recentprojects/veritru.png';
-import Lofo from '../../assets/recentprojects/lofo.png';
-import Startup from '../../assets/recentprojects/startup.png';
-import Lacalle from '../../assets/recentprojects/lacalle.png';
+import Ecom from '../../assets/recentprojects/e-com.png';
+// import Lofo from '../../assets/recentprojects/lofo.png';
+// import Startup from '../../assets/recentprojects/startup.png';
+// import Lacalle from '../../assets/recentprojects/lacalle.png';
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -34,38 +34,36 @@ export const Works = () => {
     },
     {
       id: 2,
-      title: 'VeriTru Project',
-      description: `An advocacy project website built using
-      MEAN stack with fact-checking tool to promote actions against
-      fake news.`,
+      title: 'E-commerce Project',
+      description: `Developed a functional and easy to use e-commerce website with Firestore to hold inventory and product data.`,
       alter: 'VeriTru Project',
-      image: `${Veritru}`,
+      image: `${Ecom}`,
     },
-    {
-      id: 3,
-      title: 'LoFo Project',
-      description: `Logistics and Forwarding website built using
-      ReactJS to design and develop its front-end.`,
-      alter: 'LoFo Project',
-      image: `${Lofo}`,
-    },
-    {
-      id: 4,
-      title: 'Startup Project',
-      description: `A website portfolio project for the Startup Dev Team
-      built using MEVN stack to demonstrate the CRUD capabilities of the tech stack.`,
-      alter: 'Startup Project',
-      image: `${Startup}`,
-    },
-    {
-      id: 5,
-      title: 'LaCalle Cafe',
-      description: `A website project for the La Calle Cafe business
-      built using Wordpress and PHP with integrated SEO tools to help
-      the business ramp up its prospects and lead generation.`,
-      alter: 'Startup Project',
-      image: `${Lacalle}`,
-    },
+    // {
+    //   id: 3,
+    //   title: 'LoFo Project',
+    //   description: `Logistics and Forwarding website built using
+    //   ReactJS to design and develop its front-end.`,
+    //   alter: 'LoFo Project',
+    //   image: `${Lofo}`,
+    // },
+    // {
+    //   id: 4,
+    //   title: 'Startup Project',
+    //   description: `A website portfolio project for the Startup Dev Team
+    //   built using MEVN stack to demonstrate the CRUD capabilities of the tech stack.`,
+    //   alter: 'Startup Project',
+    //   image: `${Startup}`,
+    // },
+    // {
+    //   id: 5,
+    //   title: 'LaCalle Cafe',
+    //   description: `A website project for the La Calle Cafe business
+    //   built using Wordpress and PHP with integrated SEO tools to help
+    //   the business ramp up its prospects and lead generation.`,
+    //   alter: 'Startup Project',
+    //   image: `${Lacalle}`,
+    // },
   ]);
 
   return (

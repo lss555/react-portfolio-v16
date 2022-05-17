@@ -20,7 +20,6 @@
   width: 20%;
   height: 20%;
   margin-right: 5rem;
-
 }
 .__img_wrapper > img {
   width: 100%;
@@ -59,7 +58,10 @@
     flex-direction: column;
   }
   .__img_wrapper {
-    width: 340px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    width: 50%;
+    height: 50%;
   }
   .__content_wrapper {
     width: 70%;
