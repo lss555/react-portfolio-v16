@@ -10,7 +10,7 @@ import './Works.css';
 // Import ../../assets/recentprojects/
 import Soar from '../../assets/recentprojects/soar.png';
 import Ecom from '../../assets/recentprojects/e-com.png';
-// import Lofo from '../../assets/recentprojects/lofo.png';
+import StreetSpots from '../../assets/recentprojects/street-spots.png';
 // import Startup from '../../assets/recentprojects/startup.png';
 // import Lacalle from '../../assets/recentprojects/lacalle.png';
 
@@ -29,24 +29,23 @@ export const Works = () => {
       id: 1,
       title: 'Soar Counseling Services Inc.',
       description: `Designed and developed a ReactJS application to boost a small business's online traffic.`,
-      alter: 'React Portfolio',
+      alter: 'Soar Counseling Services Inc.',
       image: `${Soar}`,
     },
     {
       id: 2,
       title: 'E-commerce Project',
       description: `Developed a functional and easy to use e-commerce website with Firestore to hold inventory and product data.`,
-      alter: 'VeriTru Project',
+      alter: 'E-commerce Project',
       image: `${Ecom}`,
     },
-    // {
-    //   id: 3,
-    //   title: 'LoFo Project',
-    //   description: `Logistics and Forwarding website built using
-    //   ReactJS to design and develop its front-end.`,
-    //   alter: 'LoFo Project',
-    //   image: `${Lofo}`,
-    // },
+    {
+      id: 3,
+      title: 'Street Spots Project',
+      description: `An application to create spots that other users and yourself can access. Built with Django, PostgresSQL, ReactJS, and HTML/CSS`,
+      alter: 'Street Spots Project',
+      image: `${StreetSpots}`,
+    }
     // {
     //   id: 4,
     //   title: 'Startup Project',
