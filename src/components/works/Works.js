@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "../content/TextDecrypt";
+import { Link } from 'react-router-dom'
 
 import './Works.css';
 
@@ -28,23 +29,26 @@ export const Works = () => {
     {
       id: 1,
       title: 'Soar Counseling Services Inc.',
-      description: `Designed and developed a ReactJS application to boost a small business's online traffic.`,
+      description: `Designed and developed a ReactJS application to boost a small business's online traffic. Click anywhere in this box to see the live site.`,
       alter: 'Soar Counseling Services Inc.',
       image: `${Soar}`,
+      link: 'https://soarcounselingnow.com/',
     },
     {
       id: 2,
       title: 'E-commerce Project',
-      description: `Developed a functional and easy to use e-commerce website with Firestore to hold inventory and product data.`,
+      description: `Developed a functional and easy to use e-commerce website with Firestore to hold inventory and product data. Click anywhere in this box to see the live site.`,
       alter: 'E-commerce Project',
       image: `${Ecom}`,
+      link: 'https://ephemeral-fox-9068d2.netlify.app/',
     },
     {
       id: 3,
       title: 'Street Spots Project',
-      description: `An application to create spots that other users and yourself can access. Built with Django, PostgresSQL, ReactJS, and HTML/CSS`,
+      description: `An application to create spots that other users and yourself can access. Built with Django, PostgresSQL, ReactJS, and HTML/CSS. Click anywhere in this box to see the live site.`,
       alter: 'Street Spots Project',
       image: `${StreetSpots}`,
+      link: 'https://lss555.github.io/street-spots-client/#/',
     }
     // {
     //   id: 4,
@@ -74,12 +78,14 @@ export const Works = () => {
               <img src={ project.image } alt={ project.alter }/>
             </div>
             <div className="__content_wrapper">
-              <h3 className="title">
-                <TextDecrypt text={ project.id + '. ' + project.title } />
-              </h3>
-              <p className="description">
-                { project.description }
-              </p>
+              <a href={project.link} target="_blank" className='work-link' rel="noreferrer">
+                <h3 className="title">
+                  <TextDecrypt text={ project.id + '. ' + project.title } />
+                </h3>
+                <p className="description">
+                  { project.description }
+                </p>
+              </a>
             </div>
           </div>
         ))}
