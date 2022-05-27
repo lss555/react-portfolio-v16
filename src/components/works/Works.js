@@ -36,8 +36,8 @@ export const Works = () => {
     },
     {
       id: 2,
-      title: 'E-commerce Project',
-      description: `Developed a functional and easy to use e-commerce website with Firestore to hold inventory and product data. Click anywhere in this box to see the live site.`,
+      title: 'E-commerce Website',
+      description: `Developed a functional React and Redux ecommerce website with users that have the ability to sign up, sign in, sign-out and checkout. Uses Firebase/Firestore for inventory and product data. Click anywhere in this box to see the live site.`,
       alter: 'E-commerce Project',
       image: `${Ecom}`,
       link: 'https://ephemeral-fox-9068d2.netlify.app/',
