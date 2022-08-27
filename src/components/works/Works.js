@@ -36,7 +36,7 @@ export const Works = () => {
     },
     {
       id: 2,
-      title: 'A film studio website',
+      title: 'A Film Studio Website',
       description: `A website built for a startup film studio. Built with React, Styled Components, React bootstrap, EmailJS, and more. Click anywhere in this box to see the live site.`,
       alter: 'Soveriegn Studios',
       image: `${StudioWebsite}`,
