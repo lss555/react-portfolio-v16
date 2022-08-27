@@ -12,7 +12,7 @@ import './Works.css';
 import Soar from '../../assets/recentprojects/soar.png';
 import Ecom from '../../assets/recentprojects/e-com.png';
 import StreetSpots from '../../assets/recentprojects/street-spots.png';
-// import Startup from '../../assets/recentprojects/startup.png';
+import StudioWebsite from '../../assets/recentprojects/studio-website.png';
 // import Lacalle from '../../assets/recentprojects/lacalle.png';
 
 const useStyles = makeStyles((theme) => ({
@@ -36,6 +36,14 @@ export const Works = () => {
     },
     {
       id: 2,
+      title: 'A film studio website',
+      description: `A website built for a startup film studio. Built with React, Styled Components, React bootstrap, EmailJS, and more. Click anywhere in this box to see the live site.`,
+      alter: 'Soveriegn Studios',
+      image: `${StudioWebsite}`,
+      link: 'https://tourmaline-donut-0bc732.netlify.app/',
+    },
+    {
+      id: 3,
       title: 'E-commerce Website',
       description: `Developed a functional React and Redux ecommerce website with users that have the ability to sign up, sign in, sign-out and checkout. Uses Firebase/Firestore for inventory and product data. Click anywhere in this box to see the live site.`,
       alter: 'E-commerce Project',
@@ -43,21 +51,14 @@ export const Works = () => {
       link: 'https://ephemeral-fox-9068d2.netlify.app/',
     },
     {
-      id: 3,
+      id: 4,
       title: 'Street Spots Project',
       description: `An application to create spots that other users and yourself can access. Built with Django, PostgresSQL, ReactJS, and HTML/CSS. Click anywhere in this box to see the live site.`,
       alter: 'Street Spots Project',
       image: `${StreetSpots}`,
       link: 'https://lss555.github.io/street-spots-client/#/',
-    }
-    // {
-    //   id: 4,
-    //   title: 'Startup Project',
-    //   description: `A website portfolio project for the Startup Dev Team
-    //   built using MEVN stack to demonstrate the CRUD capabilities of the tech stack.`,
-    //   alter: 'Startup Project',
-    //   image: `${Startup}`,
-    // },
+    },
+
     // {
     //   id: 5,
     //   title: 'LaCalle Cafe',
