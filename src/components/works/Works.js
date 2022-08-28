@@ -12,7 +12,7 @@ import './Works.css';
 import Soar from '../../assets/recentprojects/soar.png';
 import Ecom from '../../assets/recentprojects/e-com.png';
 import StreetSpots from '../../assets/recentprojects/street-spots.png';
-import StudioWebsite from '../../assets/recentprojects/studio-website.png';
+import StudioWebsite from '../../assets/recentprojects/studio.png';
 // import Lacalle from '../../assets/recentprojects/lacalle.png';
 
 const useStyles = makeStyles((theme) => ({
