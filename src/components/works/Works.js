@@ -13,6 +13,7 @@ import Soar from '../../assets/recentprojects/soar.png';
 import Ecom from '../../assets/recentprojects/e-com.png';
 import StreetSpots from '../../assets/recentprojects/street-spots.png';
 import StudioWebsite from '../../assets/recentprojects/studio.png';
+import DevSpot from '../../assets/recentprojects/Dev-users.png';
 // import Lacalle from '../../assets/recentprojects/lacalle.png';
 
 const useStyles = makeStyles((theme) => ({
@@ -57,6 +58,14 @@ export const Works = () => {
       alter: 'Street Spots Project',
       image: `${StreetSpots}`,
       link: 'https://lss555.github.io/street-spots-client/#/',
+    },
+    {
+      id: 5,
+      title: 'Dev Spot',
+      description: `Social media application for developers. Has user profiles with image upload for profile pictures, descriptions and more. Live feed where users can post "tweets" that other users can see. These "tweets" can be edited by the owner of the tweet and deleted. Built with React in the front-end and Express, MongoDB, and Mongoose in the back-end. Built on a team of 3 other developers and myself in one week.`,
+      alter: 'Dev Spot',
+      image: `${DevSpot}`,
+      link: '',
     },
 
     // {
