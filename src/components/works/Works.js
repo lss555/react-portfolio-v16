@@ -38,7 +38,7 @@ export const Works = () => {
     {
       id: 2,
       title: 'Ski/Snowboard Blog concept',
-      description: `A full stack blog made React, styled components, and Framer motion in the front end. GROQ for the back end. Sanity as a headless CMS so the blog owner can CRUD blog posts as well as add and delete authors in user friendly way. The authors are dynamically shown on the about page so if a new author writes a post they will automatically added to the about page with their bio. Click anywhere in this box to see the live site.`,
+      description: `A full stack blog made with mostly React and styled components in the front end. GROQ for the back end. Sanity as a headless CMS so the blog owner can CRUD blog posts and CRUD authors in a user friendly way. The authors are dynamically shown on the about page so if a new author writes a post they will automatically added to the about page with their bio. Click anywhere in this box to see the live site.`,
       alter: 'Blog',
       image: `${ShredMtns}`,
       link: 'https://dulcet-eclair-e1df93.netlify.app/',
