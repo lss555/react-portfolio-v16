@@ -14,7 +14,7 @@ import Ecom from '../../assets/recentprojects/e-com.png';
 import StreetSpots from '../../assets/recentprojects/street-spots.png';
 import StudioWebsite from '../../assets/recentprojects/studio.png';
 import DevSpot from '../../assets/recentprojects/Dev-users.png';
-// import Lacalle from '../../assets/recentprojects/lacalle.png';
+import ShredMtns from '../../assets/recentprojects/shred-mtns.png';
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -37,19 +37,19 @@ export const Works = () => {
     },
     {
       id: 2,
+      title: 'Ski/Snowboard Blog concept',
+      description: `A full stack blog made React, styled components, and Framer motion in the front end. GROQ for the back end. Sanity as a headless CMS so the blog owner can CRUD blog posts as well as add and delete authors in user friendly way. The authors are dynamically shown on the about page so if a new author writes a post they will automatically added to the about page with their bio. Click anywhere in this box to see the live site.`,
+      alter: 'Blog',
+      image: `${ShredMtns}`,
+      link: 'https://dulcet-eclair-e1df93.netlify.app/',
+    },
+    {
+      id: 3,
       title: 'A Film Studio Website',
       description: `A mockup website built for a startup film studio. Built as a visualization and more iterations coming soon. Built with React, Styled Components, React bootstrap, EmailJS, and more. Click anywhere in this box to see the live site.`,
       alter: 'Soveriegn Studios',
       image: `${StudioWebsite}`,
       link: 'https://tourmaline-donut-0bc732.netlify.app/',
-    },
-    {
-      id: 3,
-      title: 'E-commerce Website',
-      description: `Developed a functional React and Redux ecommerce website with users that have the ability to sign up, sign in, sign-out and checkout. Uses Firebase/Firestore for inventory and product data. Click anywhere in this box to see the live site.`,
-      alter: 'E-commerce Project',
-      image: `${Ecom}`,
-      link: 'https://ephemeral-fox-9068d2.netlify.app/',
     },
     {
       id: 4,
@@ -66,6 +66,14 @@ export const Works = () => {
       alter: 'Dev Spot',
       image: `${DevSpot}`,
       link: 'https://github.com/Team-StuckOverflow',
+    },
+    {
+      id: 6,
+      title: 'E-commerce Website',
+      description: `Developed a functional React and Redux ecommerce website with users that have the ability to sign up, sign in, sign-out and checkout. Uses Firebase/Firestore for inventory and product data. Click anywhere in this box to see the live site.`,
+      alter: 'E-commerce Project',
+      image: `${Ecom}`,
+      link: 'https://ephemeral-fox-9068d2.netlify.app/',
     },
 
     // {
