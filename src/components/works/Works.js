@@ -66,7 +66,7 @@ export const Works = () => {
       description: `An application to create spots that other users and yourself can access. Built with Django, PostgresSQL, ReactJS, and HTML/CSS. Click anywhere in this box to see the live site.`,
       alter: 'Street Spots Project',
       image: `${StreetSpots}`,
-      link: 'https://lss555.github.io/street-spots-client/#/',
+      link: 'https://github.com/lss555/street-spots-client',
     },
     {
       id: 6,
